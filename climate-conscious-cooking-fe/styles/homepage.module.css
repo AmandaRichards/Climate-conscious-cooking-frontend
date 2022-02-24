@@ -1,0 +1,16 @@
+.row {
+    justify-content: center;
+    --bs-gutter-x: unset;
+    height: 10vh
+
+}
+
+.row:nth-child(1) {
+    height: 20vh;
+    margin: 1em
+}
+.col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
