@@ -19,6 +19,7 @@ const Recipe = () => {
 }, [recipe])
     return (
         <div>
+        <h1>Scotland</h1>
             <h1>{recipe}</h1>
         </div>
     )

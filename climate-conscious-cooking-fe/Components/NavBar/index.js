@@ -18,15 +18,15 @@ export function NavBar(){
       <Nav className="me-auto" >
         <Nav.Link href="#home">Home</Nav.Link>
         <Nav.Link href="#link">Link</Nav.Link>
-        <NavDropdown title="Cuisine" id="basic-nav-dropdown" className={css.NavBar}>
-          <NavDropdown.Item href="#action/3.1">Indian</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Italian</NavDropdown.Item>
+        <NavDropdown  title="Cuisine" id="basic-nav-dropdown" className={css.NavBar}>
+          <NavDropdown.Item href="#action/3.1" className={css.NavBar} >Indian</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.2" className={css.NavBar}>Italian</NavDropdown.Item>
           <Link href="./recipe">
-          <NavDropdown.Item href="#action/3.3">Scottish</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.3" className={css.NavBar}>Scottish</NavDropdown.Item>
           </Link>
-           <NavDropdown.Item href="#action/3.4">Ugandan</NavDropdown.Item>
+           <NavDropdown.Item href="#action/3.4" className={css.NavBar}>Ugandan</NavDropdown.Item>
           <NavDropdown.Divider />
-          <NavDropdown.Item href="#action/3.5">View all</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.5" className={css.NavBar}>View all</NavDropdown.Item>
         </NavDropdown>
       </Nav>
     </Navbar.Collapse>
